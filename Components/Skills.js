@@ -7,7 +7,7 @@ import ReactImage from "../public/assets/skills/react2.png";
 import TailwindImage from "../public/assets/skills/tailwind.png";
 import FirebaseImage from "../public/assets/skills/firebase.png";
 import GithubImage from "../public/assets/skills/github1.png";
-import WordpressImage from "../public/assets/skills/wordpress.png";
+import WordpressImage from "../public/assets/skills/Wordpress.png";
 
 const Skills = () => {
   return (
