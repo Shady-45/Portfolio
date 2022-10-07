@@ -20,6 +20,7 @@ const Skills = () => {
                   src="/../public/assets/skills/html.png"
                   width={64}
                   height={64}
+                  alt="image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -34,6 +35,7 @@ const Skills = () => {
                   src="/../public/assets/skills/css.png"
                   width={64}
                   height={64}
+                  alt="image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -48,6 +50,7 @@ const Skills = () => {
                   src="/../public/assets/skills/javascript.png"
                   width={64}
                   height={64}
+                  alt="image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -62,6 +65,7 @@ const Skills = () => {
                   src="/../public/assets/skills/react2.png"
                   width={70}
                   height={70}
+                  alt="image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -76,6 +80,7 @@ const Skills = () => {
                   src="/../public/assets/skills/tailwind.png"
                   width={64}
                   height={64}
+                  alt="image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -90,6 +95,7 @@ const Skills = () => {
                   src="/../public/assets/skills/firebase.png"
                   width={64}
                   height={64}
+                  alt="image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -104,6 +110,7 @@ const Skills = () => {
                   src="/../public/assets/skills/github1.png"
                   width={64}
                   height={64}
+                  alt="image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -118,6 +125,7 @@ const Skills = () => {
                   src="/../public/assets/skills/wordpress.png"
                   width={64}
                   height={64}
+                  alt="image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
