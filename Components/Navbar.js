@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import ProfileImg from "../public/assets/cr.png";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
@@ -50,12 +51,7 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="/../public/assets/c-removebg-preview.png"
-          width={125}
-          height={120}
-          alt="image"
-        />
+        <Image src={ProfileImg} width={125} height={120} alt="image" />
         <div className="md:hidden lg:inline-block">
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
@@ -97,7 +93,7 @@ const Navbar = () => {
         >
           <div>
             <div className=" flex w-full items-center justify-between">
-              <Image
+              <img
                 src="/../public/assets/c-removebg-preview.png"
                 width={125}
                 height={120}

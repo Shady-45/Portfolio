@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React, { useState } from "react";
+import Image from "next/image";
 import rahulImg from "../public/assets/rahul2-bg.png";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";

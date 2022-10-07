@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AboutImage from "../public/assets/rahul-b.png";
 import React from "react";
 
 const About = () => {
@@ -28,12 +29,7 @@ const About = () => {
           </p> */}
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image
-            src="/../public/assets/rahul-b.png"
-            alt="image"
-            height={500}
-            width={500}
-          />
+          <Image src={AboutImage} alt="image" height={500} width={500} />
         </div>
       </div>
     </div>

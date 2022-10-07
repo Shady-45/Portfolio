@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import CryptoImg from "../public/assets/projects/crypto.png";
 import { RiRadioButtonFill } from "react-icons/ri";
@@ -9,7 +8,7 @@ const Property = () => {
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
-        <Image
+        <img
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
